@@ -1,0 +1,35 @@
+
+class Department {
+    String name;
+
+    Department(String name) {
+        this.name = name;
+    }
+}
+
+class Student {
+    String name;
+    int id;
+    Department dept;
+
+    Student(String name, int id, Department dept) {
+        this.name = name;
+        this.id = id;
+        this.dept = dept;
+    }
+
+    void show() {
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Department: " + dept.name);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Department swe = new Department("SWE");
+
+        Student s1 = new Student("Tawheed", 1, swe);
+        s1.show();
+    }
+}
