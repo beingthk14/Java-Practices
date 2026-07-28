@@ -1,0 +1,19 @@
+public class MyVars {
+    static int year = 2026;
+    public static void main(String[]args){
+        System.out.println("Year is:" +year);
+
+        int age = 22;
+        System.out.println("Age is:" +age);
+
+        String name = "Tohidul Hasan Khan";
+                System.out.println("Name is :" +name);
+
+                my_cgpa();
+    }
+    static void my_cgpa(){
+        double cg = 2.5;
+        System.out.println("My cgpa is:" +cg);
+
+    }
+}
