@@ -1,0 +1,14 @@
+public class OpPractice2 {
+    public static void main(String[] args) {
+        int score = 50;
+        score += 20;   
+        score -= 5;    
+        score *= 2;  
+        System.out.println("Final score: " + score);
+
+        int i = 0;
+        System.out.println("Post-increment: " + i++);   // prints 0, then i=1
+        System.out.println("Now i is: " + i);
+        System.out.println("Pre-increment: " + ++i);     // i=2, then prints 2
+    }
+}
